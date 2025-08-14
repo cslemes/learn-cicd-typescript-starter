@@ -38,6 +38,7 @@ if (db) {
   v1Router.get("/users", middlewareAuth(handlerUsersGet));
   v1Router.get("/notes", middlewareAuth(handlerNotesGet));
   v1Router.post("/notes", middlewareAuth(handlerNotesCreate));
+  errr
 }
 
 v1Router.get("/healthz", handlerReadiness);
